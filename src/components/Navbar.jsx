@@ -1,5 +1,5 @@
 import logo from "../assets/projects/logo.png"
-import { FaLinkedin, FaGithub, FaTwitterSquare, FaInstagram } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex justify-center items-center gap-4 text-2xl m-8 text-neutral-400">
             <FaLinkedin className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
             <FaGithub className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
-            <FaTwitterSquare className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
+            <FaEnvelope className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
             <FaInstagram className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
         </div>
     </nav>
