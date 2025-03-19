@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants"
-import profilePic from "../assets/projects/profilePic.png"
+import profilePic from "../assets/projects/profilePhoto.png"
 
 const Hero = () => {
   return (
@@ -21,7 +21,7 @@ const Hero = () => {
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
-                    <img className="rounded-md" src={profilePic} alt="Danylo Humeniuk" />
+                    <img className="rounded-2xl shadow-[0px_15px_30px_theme(colors.gray.950)]" src={profilePic} alt="Danylo Humeniuk" />
                 </div>
             </div>
         </div>
