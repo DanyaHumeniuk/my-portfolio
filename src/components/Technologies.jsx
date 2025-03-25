@@ -27,6 +27,7 @@ const Technologies = () => {
             <div className="rounded-2xl border-4 border-neutral-800 p-4">
                 <FaJava className="text-7xl text-red-600"/>
             </div>
+            
         </div>
     </div>
   )
