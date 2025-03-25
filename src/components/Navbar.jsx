@@ -1,5 +1,5 @@
 import logo from "../assets/projects/logo.png"
-import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaFileAlt } from "react-icons/fa";
 
 
 const Navbar = () => {
@@ -9,10 +9,21 @@ const Navbar = () => {
             <img src={logo} alt="logo" className="h-20 w-20 scale-125 mx-2"/>
         </div>
         <div className="flex justify-center items-center gap-4 text-2xl m-8 text-neutral-400">
-            <FaLinkedin className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
-            <FaGithub className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
-            <FaEnvelope className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
-            <FaInstagram className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
+            <a href="https://www.linkedin.com/in/danylo-humeniuk-aba4a8257/">
+              <FaLinkedin className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
+            </a>
+            <a href="https://github.com/DanyaHumeniuk">
+              <FaGithub className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
+            </a>
+            <a href="mailto:dgumenuk076@gmail.com">
+              <FaEnvelope className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
+            </a>
+            <a href="">
+              {/* <button className="relative border rounded-md text-xl p-1 bg-neutral-400 text-transparent bg-clip-text text-fill-transparent hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c] hover:border-orange-400">Resume</button> */}
+              <FaFileAlt className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
+            </a>
+            
+            
         </div>
     </nav>
   )

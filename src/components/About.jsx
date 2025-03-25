@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-4">
         <h1 className="my-20 text-center text-4xl ">About 
-            <span className="text-neutral-600"> Me</span>
+            <span className="bg-gradient-to-r from-orange-400 to-red-500 text-transparent bg-clip-text"> Me</span>
         </h1>
         <div className="flex flex-wrap ">
             <div className="w-full lg:w-1/2 lg:p-8">
