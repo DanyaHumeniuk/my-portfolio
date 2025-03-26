@@ -18,10 +18,10 @@ const Navbar = () => {
             <a href="mailto:dgumenuk076@gmail.com">
               <FaEnvelope className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
             </a>
-            <a href="">
-              {/* <button className="relative border rounded-md text-xl p-1 bg-neutral-400 text-transparent bg-clip-text text-fill-transparent hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c] hover:border-orange-400">Resume</button> */}
+            {/* <a href="">
+              
               <FaFileAlt className="hover:text-orange-400 hover:drop-shadow-[0_0_10px_#fb923c]"/>
-            </a>
+            </a> */}
             
             
         </div>
