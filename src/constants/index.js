@@ -25,7 +25,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "118-1635 Cook Str, Victoria, BC V8T 3N9",
+  address: "Victoria, BC",
   phoneNo: "+1 778 966 3661 ",
   email: "dgumenuk076@gmail.com",
 };
