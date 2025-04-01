@@ -31,10 +31,11 @@ const Hero = () => {
             </div>
             <div className="w-full lg:w-1/2 lg:p-8">
                 <div className="flex justify-center">
-                    <motion.img initial={{x: 100, opacity: 0}} animate={{x: 0, opacity: 1}} transition={{duration: 1, delay: 1.2}} className="rounded-2xl shadow-[0px_15px_30px_theme(colors.gray.950)]" src={profilePic} alt="Danylo Humeniuk" />
+                    <motion.img initial={{x: 100, opacity: 0}} animate={{x: 0, opacity: 1}} transition={{duration: 1, delay: 1.2}} className="rounded-2xl drop-shadow-[0_0_5px_#a3a3a3] object-cover contrast-[1.1] animate-float" src={profilePic} alt="Danylo Humeniuk" />
                 </div>
             </div>
         </div>
+        
     </div>
   )
 }
