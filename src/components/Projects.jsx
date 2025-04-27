@@ -28,8 +28,8 @@ const Projects = () => {
                         }/>
                     </motion.div>
                     <motion.div whileInView={{opacity: 1, x: 0}} initial={{opacity: 0, x: 100}} transition={{duration: 1}} className="w-full max-w-xl lg:w-3/4">
-                        <h6 className="mb-2 font-semibold">{project.title}</h6>
-                        <p className="mb-4 text-neutral-400">{project.description}</p>
+                        <h6 className="mb-2 text-lg font-extrabold">{project.title}</h6>
+                        <p className="my-4 text-neutral-400">{project.description}</p>
                         {project.technologies.map((tech, techIndex) => (
                             <span key={techIndex} className="mr-2 rounded bg-neutral-900 py-1 px-2 text-small font-medium text-red-500">{tech}</span>
                         ))}

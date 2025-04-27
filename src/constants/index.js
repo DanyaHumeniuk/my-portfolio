@@ -1,4 +1,6 @@
 import project1 from "../assets/projects/project-1.png";
+import danland from "../assets/projects/danland.png"
+import danland1 from "../assets/projects/danland1.png"
 
 export const HERO_CONTENT = `I am passionate about front-end development and enjoy combining creativity with technology to build visually appealing, accessible, and highly functional websites. With a background in psychology, I have a deep understanding of user behavior, which allows me to create intuitive and engaging digital experiences. My focus is on front-end development, problem-solving, and designing interfaces that are both aesthetically pleasing and easy to navigate, ensuring seamless interactions for users.`;
 
@@ -21,7 +23,14 @@ export const PROJECTS = [
     description:
       "Contributed to the frontend of a web application that displays an interactive map of campus cafeterias. Designed and implemented a responsive Contact Us page using React and Tailwind CSS, ensuring clean layout, accessibility, and mobile compatibility.",
     technologies: ["HTML", "Tailwind CSS", "React"],
+  },
+  {
+    title: "DanLand Interactive Map Game",
+    image: danland,
+    description: "Collaborated on the development of an interactive map-based web game where players select a Pokémon avatar and navigate across predefined map points. Built using React, Tailwind CSS, and PokeAPI to dynamically fetch and display Pokémon characters. Emphasized responsive design, clean UI layout, and smooth user interaction. Applied Git and GitHub for version control and team collaboration, following best practices for branching, merging, and live updates.",
+    technologies: ["HTML", "Tailwind CSS", "React"],
   }
+
 ];
 
 export const CONTACT = {
