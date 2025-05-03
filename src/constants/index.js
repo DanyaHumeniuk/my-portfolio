@@ -18,7 +18,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Interactive Campus Map Web App",
+    title: "Interactive Campus Map Web App (VikeEats)",
     image: project1,
     description:
       "Contributed to the frontend of a web application that displays an interactive map of campus cafeterias. Designed and implemented a responsive Contact Us page using React and Tailwind CSS, ensuring clean layout, accessibility, and mobile compatibility.",
