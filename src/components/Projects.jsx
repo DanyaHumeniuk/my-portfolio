@@ -33,12 +33,15 @@ const Projects = () => {
                         <p className="my-4 text-neutral-400">{project.description}</p>
                         <div className="mb-4">
                           <a href={project.link} target="_blank" rel="noopener noreferrer" className="underline hover:text-orange-400 bg-gradient-to-r from-orange-400 via-neutral-400 to-red-500 bg-clip-text text-transparent">
-                            {project.link}
+                            {project.link} 
                           </a>
                         </div>
-                        {project.technologies.map((tech, techIndex) => (
+                        <div className="flex flex-wrap mt-2 gap-2">
+                          {project.technologies.map((tech, techIndex) => (
                             <span key={techIndex} className="mr-2 rounded bg-neutral-900 py-1 px-2 text-small font-medium text-red-500">{tech}</span>
-                        ))}
+                          ))}
+                        </div>
+                        
                     </motion.div>
                     
                 </div>
