@@ -22,7 +22,7 @@ const Navbar = () => {
           <span className="nav-text absolute mt-8 text-xs opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">Contact</span>
         </a>
        
-        <a href="/Danylo_Humeniuk_Resume.pdf" target="_blank" rel="noopener noreferrer" className="nav-item relative flex flex-col items-center group hover:drop-shadow-[0_0_10px_#fb923c]">
+        <a href="/DanyloHumeniuk_Resume.pdf" target="_blank" rel="noopener noreferrer" className="nav-item relative flex flex-col items-center group hover:drop-shadow-[0_0_10px_#fb923c]">
           <FaFileAlt className="nav-icon transition-transform duration-300 group-hover:text-orange-400 group-hover:-translate-y-1"/>
           <span className="nav-text absolute mt-8 text-xs opacity-0 translate-y-2 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300">Resume</span>
         </a>
