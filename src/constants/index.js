@@ -23,7 +23,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "Contributed to the frontend of a web application that displays an interactive map of campus cafeterias. Designed and implemented a responsive Contact Us page using React and Tailwind CSS, ensuring clean layout, accessibility, and mobile compatibility.",
-    technologies: ["HTML", "Tailwind CSS", "React"],
+    technologies: ["HTML", "Tailwind CSS", "React", "Figma"],
   },
   {
     title: "DanLand Interactive Map Game",
@@ -37,7 +37,7 @@ export const PROJECTS = [
     image: freelance,
     description: "Designed and developed a responsive landing page for a holistic healing practitioner, focused on promoting theta healing services and client engagement. Built with React and Tailwind CSS, the site features smooth scroll navigation, animated content transitions, and a custom contact section. Prioritized performance, accessibility, and mobile optimization. Integrated modern UX patterns and subtle visual effects to create a warm, professional user experience.",
     link: "https://www.olhavityuk.com",
-    technologies: ["HTML", "Tailwind CSS", "React", "Framer Motion"],
+    technologies: ["HTML", "Tailwind CSS", "React", "Figma","Framer Motion"],
   }
 ];
 
