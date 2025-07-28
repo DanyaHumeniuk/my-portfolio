@@ -20,18 +20,11 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Interactive Campus Map Web App (VikeEats)",
-    image: project1,
-    description:
-      "Contributed to the frontend of a web application that displays an interactive map of campus cafeterias. Designed and implemented a responsive Contact Us page using React and Tailwind CSS, ensuring clean layout, accessibility, and mobile compatibility.",
+    title: "FindMeFood",
+    image: findmefood,
+    description: "Designed and prototyped a responsive restaurant filtering website for users in Victoria, BC, allowing them to search by dietary preferences, cuisine, price, and ratings. Conducted user interviews, ethnographic research, and usability testing to inform the design. Built a medium-fidelity prototype emphasizing intuitive filtering, mobile accessibility, and visual clarity.",
+    link: "https://seng310-dietary-filter-app.vercel.app",
     technologies: ["HTML", "Tailwind CSS", "React", "Figma"],
-  },
-  {
-    title: "DanLand Interactive Map Game",
-    image: danland,
-    description: "Collaborated on the development of an interactive map-based web game where players select a Pokémon avatar and navigate across predefined map points. Built using React, Tailwind CSS, and PokeAPI to dynamically fetch and display Pokémon characters. Emphasized responsive design, clean UI layout, and smooth user interaction. Applied Git and GitHub for version control and team collaboration, following best practices for branching, merging, and live updates.",
-    link: "https://danland.vercel.app",
-    technologies: ["HTML", "Tailwind CSS", "React", "Framer Motion"],
   },
   {
     title: "Freelance Landing Page",
@@ -41,12 +34,19 @@ export const PROJECTS = [
     technologies: ["HTML", "Tailwind CSS", "React", "Figma","Framer Motion"],
   },
   {
-    title: "FindMeFood",
-    image: findmefood,
-    description: "Designed and prototyped a responsive restaurant filtering website for users in Victoria, BC, allowing them to search by dietary preferences, cuisine, price, and ratings. Conducted user interviews, ethnographic research, and usability testing to inform the design. Built a medium-fidelity prototype emphasizing intuitive filtering, mobile accessibility, and visual clarity.",
-    link: "https://seng310-dietary-filter-app.vercel.app",
+    title: "DanLand Interactive Map Game",
+    image: danland,
+    description: "Collaborated on the development of an interactive map-based web game where players select a Pokémon avatar and navigate across predefined map points. Built using React, Tailwind CSS, and PokeAPI to dynamically fetch and display Pokémon characters. Emphasized responsive design, clean UI layout, and smooth user interaction. Applied Git and GitHub for version control and team collaboration, following best practices for branching, merging, and live updates.",
+    link: "https://danland.vercel.app",
+    technologies: ["HTML", "Tailwind CSS", "React", "Framer Motion"],
+  },
+  {
+    title: "Interactive Campus Map Web App (VikeEats)",
+    image: project1,
+    description:
+      "Contributed to the frontend of a web application that displays an interactive map of campus cafeterias. Designed and implemented a responsive Contact Us page using React and Tailwind CSS, ensuring clean layout, accessibility, and mobile compatibility.",
     technologies: ["HTML", "Tailwind CSS", "React", "Figma"],
-  }
+  },
 ];
 
 export const CONTACT = {
