@@ -3,6 +3,7 @@ import danland from "../assets/projects/danland.png"
 import freelance from "../assets/projects/freelance.png"
 import danland1 from "../assets/projects/danland1.png"
 import findmefood from "../assets/projects/findmefood.png"
+import mentalhealthapp from "../assets/projects/MentalHealthJournalApp.png"
 
 export const HERO_CONTENT = `I am passionate about front-end development and enjoy combining creativity with technology to build visually appealing, accessible, and highly functional websites. With a background in psychology, I have a deep understanding of user behavior, which allows me to create intuitive and engaging digital experiences. My focus is on front-end development, problem-solving, and designing interfaces that are both aesthetically pleasing and easy to navigate, ensuring seamless interactions for users.`;
 
@@ -19,6 +20,13 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Mental Health Journal",
+    image: mentalhealthapp,
+    description: "Engineered a secure, full-stack journaling application (MERN stack) providing users with a private, authenticated platform for thought management. Implemented JWT authentication with seamless auto-login, designed full CRUD functionality for journal entries, and secured the system by refactoring component structure and revoking exposed credentials.",
+    link: "https://mental-health-journal-psi.vercel.app", 
+    technologies: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "JWT"],
+  },
   {
     title: "FindMeFood",
     image: findmefood,
