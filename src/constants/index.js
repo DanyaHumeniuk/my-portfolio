@@ -4,10 +4,17 @@ import freelance from "../assets/projects/freelance.png"
 import danland1 from "../assets/projects/danland1.png"
 import findmefood from "../assets/projects/findmefood.png"
 import mentalhealthapp from "../assets/projects/MentalHealthJournalApp.png"
+import data from "../assets/projects/data_analysis.png"
 
-export const HERO_CONTENT = `I am passionate about front-end development and enjoy combining creativity with technology to build visually appealing, accessible, and highly functional websites. With a background in psychology, I have a deep understanding of user behavior, which allows me to create intuitive and engaging digital experiences. My focus is on front-end development, problem-solving, and designing interfaces that are both aesthetically pleasing and easy to navigate, ensuring seamless interactions for users.`;
+export const HERO_CONTENT = `I am a versatile technologist specializing in the intersection of full-stack web development and data analysis. My expertise includes engineering robust applications with the MERN stack and transforming raw data into strategic insights using Python, SQL, and R. I combine strong problem-solving skills with an understanding of user psychology to not only build functional, secure systems but also to derive actionable intelligence that drives business decisions. My goal is to craft highly functional digital experiences, from the backend API to the final analytical report.`;
 
-export const ABOUT_TEXT = `I am a dedicated and creative student interested in front-end development with a passion for building visually appealing, accessible, and user-friendly web experiences. With experience in React, Tailwind, JavaScript, HTML, CSS, Python, Java, and C, I enjoy blending design and functionality to craft seamless digital interactions. My journey into web development started with a love for art and technology, which naturally led me to front-end development, where I bring both creativity and problem-solving together. I have also worked with data structures and unit testing, developing test cases to improve efficiency and reliability in software. I thrive in collaborative environments and am always eager to learn new tools and frameworks. Outside of coding, I love exploring design, staying creative, and continuously pushing my skills to the next level.`;
+export const ABOUT_TEXT = `I am a creative developer and dedicated analyst whose curiosity lies where human-centered design meets powerful technology. My history spans the entire technology spectrum:
+
+On the application front, I specialize in constructing captivating client-side interfaces (React, Tailwind) and underpinning them with reliable server-side architecture. My background encompasses MERN technologies, emphasizing fortified user access control and seamless usability.
+
+On the analytical front, my capabilities manage the data lifecycle. I structure datasets using schema definition (SQL), prep data rigorously (Pandas), and employ statistical methods (R clustering) to unearth hidden market patterns and key performance metrics (KPIs).
+
+Fueled by a passion for aesthetics and efficiency, I embrace complex challenges, whether optimizing code performance or interpreting large data volumes for predictive outcomes. I am perpetually driven to learn and thrive when collaborating with teams to elevate project quality.`;
 
 export const EXPERIENCES = [
   {
@@ -26,6 +33,13 @@ export const PROJECTS = [
     description: "Engineered a secure, full-stack journaling application (MERN stack) providing users with a private, authenticated platform for thought management. Implemented JWT authentication with seamless auto-login, designed full CRUD functionality for journal entries, and secured the system by refactoring component structure and revoking exposed credentials.",
     link: "https://mental-health-journal-psi.vercel.app", 
     technologies: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "JWT"],
+  },
+  {
+    title: "E-Commerce Data Analysis Pipeline",
+    image: data,
+    description: "Engineered a full end-to-end data pipeline: built a Star Schema (SQL) for efficient querying, performed ETL and data cleaning (Python/Pandas), and executed k-means clustering (R) on customer RFM metrics. Delivered actionable KPIs and customer segmentation insights via a professional Tableau dashboard.",
+    link: "https://public.tableau.com/app/profile/danylo.humeniuk/viz/ECommerceSalesPerformanceAnalysis-CustomerRFM/E-CommerceSalesPerformanceCustomerAnalysis?publish=yes", 
+    technologies: ["Python", "SQL", "R", "Tableau", "Pandas", "Looker (Conceptual)"],
   },
   {
     title: "FindMeFood",
