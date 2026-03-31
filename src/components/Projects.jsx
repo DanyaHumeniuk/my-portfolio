@@ -38,7 +38,13 @@ const Projects = () => {
                         </div>
                         <div className="flex flex-wrap mt-2 gap-2">
                           {project.technologies.map((tech, techIndex) => (
-                            <span key={techIndex} className="mr-2 rounded bg-neutral-900 py-1 px-2 text-small font-medium text-red-500">{tech}</span>
+                            <motion.span
+                              key={techIndex}
+                              whileHover={{ scale: 1.05 }}
+                              className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-red-500"
+                            >
+                              {tech}
+                            </motion.span>
                           ))}
                         </div>
                         
