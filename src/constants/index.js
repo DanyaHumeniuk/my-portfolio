@@ -6,23 +6,30 @@ import findmefood from "../assets/projects/findmefood.png"
 import mentalhealthapp from "../assets/projects/MentalHealthJournalApp.png"
 import data from "../assets/projects/data_analysis.png"
 
-export const HERO_CONTENT = `I am a versatile technologist specializing in the intersection of full-stack web development and data analysis. My expertise includes engineering robust applications with the MERN stack and transforming raw data into strategic insights using Python, SQL, and R. I combine strong problem-solving skills with an understanding of user psychology to not only build functional, secure systems but also to derive actionable intelligence that drives business decisions. My goal is to craft highly functional digital experiences, from the backend API to the final analytical report.`;
+export const HERO_CONTENT = `I am a versatile technologist specializing in the intersection of full-stack web development and data analytics. My expertise lies in engineering robust applications with the MERN stack and transforming complex datasets into strategic insights using Python, SQL, and R. By combining technical precision with an understanding of user psychology, I build secure, high-performance systems that don't just function, they provide the actionable intelligence needed to drive high-level business decisions. From architecting backend APIs to automating enterprise data pipelines, I craft digital experiences that are as analytical as they are intuitive.`;
 
-export const ABOUT_TEXT = `I am a creative developer and dedicated analyst whose curiosity lies where human-centered design meets powerful technology. My history spans the entire technology spectrum:
+export const ABOUT_TEXT = `I am a creative developer and dedicated analyst driven by the challenge of where human-centered design meets powerful, scalable technology. With a background that spans the full technology spectrum, I focus on building tools that solve real-world organizational friction.
 
-On the application front, I specialize in constructing captivating client-side interfaces (React, Tailwind) and underpinning them with reliable server-side architecture. My background encompasses MERN technologies, emphasizing fortified user access control and seamless usability.
+On the application front, I specialize in constructing captivating client-side interfaces using React and Tailwind, underpinned by reliable server-side architecture. My experience with the MERN stack emphasizes fortified user access control (JWT) and seamless usability, ensuring that complex tools remain accessible and secure.
 
-On the analytical front, my capabilities manage the data lifecycle. I structure datasets using schema definition (SQL), prep data rigorously (Pandas), and employ statistical methods (R clustering) to unearth hidden market patterns and key performance metrics (KPIs).
+On the analytical front, I manage the entire data lifecycle. I structure complex datasets through precise schema definition (SQL), perform rigorous data cleaning and ETL (Pandas), and employ statistical modeling (R clustering) to unearth hidden patterns and KPIs. My recent work focuses heavily on systems integration, bridging the gap between CRMs like Salesforce, marketing automation tools, and web portals to create unified, automated data ecosystems.
 
-Fueled by a passion for aesthetics and efficiency, I embrace complex challenges, whether optimizing code performance or interpreting large data volumes for predictive outcomes. I am perpetually driven to learn and thrive when collaborating with teams to elevate project quality.`;
+Whether I am optimizing code performance for a member portal or interpreting large data volumes for predictive outcomes, I am perpetually driven to elevate project quality through collaboration and technical curiosity.`;
 
 export const EXPERIENCES = [
+  {
+  year: "Jan 2026 - Present",
+  role: "Software Engineering Intern",
+  company: "BC Greens",
+  description: "Architecting a secure Member Portal and automating data pipelines between Salesforce, Marketing Cloud, and WordPress. Developed custom SQL-based data extensions for targeted marketing segmentation and implemented robust API integrations for donor tracking and electoral data. Optimized CRM workflows by engineering automated synchronization between 123FormBuilder and Salesforce, significantly reducing manual data entry.",
+  technologies: ["Salesforce", "Marketing Cloud", "SQL", "PHP", "WordPress", "WP Fusion", "DonorDrive"],
+  },
   {
     year: "2022 - Present",
     role: "Digital Editor/Salesperson",
     company: "Artina's Jewellery",
     description: `Work as a digital editor at a jewellery store, responsible for photographing and editing product images for the website. Ensure that all jewellery listings are accurate and up to date. On select days, assist customers and sell jewellery in the store.`,
-    technologies: ["Photoshop"],
+    technologies: ["Photoshop", "Shopify Liquid"],
   }
 ];
 
